@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    background-color: beige;
+    color: #D9A299;
+    height: 65px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+nav ul{
+    list-style-type: none;
+}
+
+.gameContainer{
+    /* background-color: #DCC5B2; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    font-family: 'Roboto', sans-serif;
+}
+
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    background-color: #FAF7F3;
+}
+
+.gameInfo{
+    padding: 0 34px;
+    font-family: "Doto", sans-serif;
+}
+
+.imgbox img{
+    display: none;
+}
+
+.br-0{
+    border-right: 0;
+}
+
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
